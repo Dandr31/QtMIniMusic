@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-07-11T19:07:44
+# Project created by QtCreator 2019-07-13T23:44:39
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Music
+TARGET = QtMIniMusic
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -41,8 +41,6 @@ HEADERS += \
         tablemodel.h
 
 # Default rules for deployment.
-RC_ICONS = images/qt-logo.ico
-
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
